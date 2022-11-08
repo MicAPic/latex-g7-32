@@ -41,3 +41,4 @@ tex/inc
 utils/install.fish
 utils/install.sh
 build
+.DS_Store
