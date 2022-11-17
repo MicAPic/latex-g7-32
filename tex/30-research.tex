@@ -1,18 +1,39 @@
 \chapter{Эксперимент}
 \label{cha:research}
 
-\section{Как делал?}
+\section{Ход работы}
 
 В данном разделе проводятся вычислительные эксперименты.
-А на рис.~\ref{fig:spire01} показана схема мыслительного процесса автора...
 
-\begin{figure}
-  \centering
-  \includegraphics[width=\textwidth]{figures/pic01}
-  \caption{Как страшно жить}
-  \label{fig:spire01}
-\end{figure}
+\section{Результаты эксперимента}
 
+Результаты эксперимента приведены в табл.~\ref{tab:results}.
+
+\begin{table}[ht]
+	\centering
+	\caption{Число эпизодов (из 100), в которых модели нашли хотя бы один баг.}
+	\begin{tabular}{ l c c c }
+		\hline
+		№ & RELINE & D3QN & Случайный агент \\
+		\hline
+		1 & 49 & 0 & 22\\
+		2 & 38 & 0 & 23\\
+		3 & 37 & 0 & 21\\
+		4 & 42 & 0 & 20\\
+		5 & 42 & 0 & 24\\
+		6 & 46 & 0 & 27\\
+		7 & 49 & 0 & 26\\
+		8 & 39 & 0 & 14\\
+		9 & 54 & 0 & 14\\
+		10 & 39 & 0 & 19\\
+		\hline
+		\textit{среднее} & 43,5 & 0 & 21 \\
+		\textit{медиана} & 42 & 0 & 21,5 \\
+		\textit{ср. кв. отклонение} & 5,72 & 0 & 4,447 \\
+		\hline
+	\end{tabular}
+	\label{tab:results}
+\end{table}
 
 %%% Local Variables:
 %%% mode: latex
